@@ -1,0 +1,14 @@
+/* Asterisk wildcard selector to override default styles set by browser */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+    background-color: #f59ebc;
+    font-family: 'Alegreya Sans', 'Courier New', Courier, monospace;
+}
