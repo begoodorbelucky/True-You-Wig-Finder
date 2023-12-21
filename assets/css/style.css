@@ -4,12 +4,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* General Styles */
 
 body {
     background-color: #f59ebc;
+    color: #2b1511;
     font-family: 'Alegreya Sans', 'Courier New', Courier, monospace;
     min-height: 100vh;
     display: flex;
@@ -19,4 +22,40 @@ body {
 main {
     /* make main element take up surplus space*/
     flex: 1 0 auto;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #f59ebc;
+}
+
+label.logo {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a {
+    font-size: 18px;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active,a:hover {
+    border: 1px solid #e64c81;
+    transition: .5s;
 }
