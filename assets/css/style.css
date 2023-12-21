@@ -11,4 +11,12 @@
 body {
     background-color: #f59ebc;
     font-family: 'Alegreya Sans', 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    /* make main element take up surplus space*/
+    flex: 1 0 auto;
 }
