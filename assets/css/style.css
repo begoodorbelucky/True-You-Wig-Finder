@@ -67,3 +67,12 @@ a.active,a:hover {
 nav a:visited {
     color:#2b1511;
 }
+
+nav #nav-icon {
+    color: #2b1511;
+    font-size: 25px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
