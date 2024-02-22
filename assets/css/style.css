@@ -88,16 +88,36 @@ a:visited {
 }
 
 #about h3{
-    font-size: 22px;
-    padding: 2%;
-    margin: 10px;
+    padding: 1%;
+    color:#c23e6c;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+#about h4{
+    font-weight: 500;
 }
 
 #about p{
     padding: 2%;
-    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
+.about-section a {
+    color:#c23e6c;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.about-image img{
+    max-width: 30%;
+}
 /* social network icons in footer*/
 
 #social-networks {
