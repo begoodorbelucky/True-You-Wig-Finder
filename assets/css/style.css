@@ -98,6 +98,23 @@ nav a:visited {
     margin: 10px;
 }
 
+/* social network icons in footer*/
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    color: #c23e6c;
+    padding: 5%;
+
+}
+
 #contactform h3{
     text-align: center;
 }
