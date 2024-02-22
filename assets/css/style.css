@@ -51,7 +51,7 @@ nav li {
     line-height: 80px;
 }
 
-nav a {
+a {
     font-size: 18px;
     border: 1px solid transparent;
     padding: 7px 10px;
@@ -63,7 +63,7 @@ a.current,a:hover {
     transition: .7s ease;
 }
 
-nav a:visited {
+a:visited {
     color:#2b1511;
     text-transform: none;
 }
