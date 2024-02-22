@@ -137,6 +137,11 @@ a:visited {
 
 #contactform h3{
     text-align: center;
+    color:#c23e6c;
+    font-weight: 800;
+    font-size: 26px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #contactform {
@@ -144,6 +149,10 @@ a:visited {
     padding-right: 10%;
     padding-top: 5%;
     margin: 20px;
+    color:#c23e6c;
+    font-size: 20px;
+    font-weight: 700;
+
 }
 
 /* for name and address*/
