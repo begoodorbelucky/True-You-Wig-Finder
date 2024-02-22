@@ -83,6 +83,21 @@ nav a:visited {
     background-color: #2b1511;
 }
 
+#about {
+    text-align: center;
+}
+
+#about h3{
+    font-size: 22px;
+    padding: 2%;
+    margin: 10px;
+}
+
+#about p{
+    padding: 2%;
+    margin: 10px;
+}
+
 #contactform h3{
     text-align: center;
 }
