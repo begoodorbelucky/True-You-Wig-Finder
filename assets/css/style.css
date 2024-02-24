@@ -141,6 +141,8 @@ a:visited {
         border-radius: 10px;
         border: 2px solid #e64c81;
         color: #2b1511;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
 #contactform h3{

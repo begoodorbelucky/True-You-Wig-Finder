@@ -44,8 +44,8 @@
         <h2>Are you ready to find your perfect wig? Start the True You Wig Finder quiz now!</h2>
         <button onClick="startQuiz()">Start</button>
     </div>
-    <div id="question-container">
-        <div id="question1" class="question">
+    <div id="question-container" style="display: none;">
+        <div id="question1" class="question" style="display: none;>
             <p>What colour hair would you like?</p>
             <input type="radio" name="colour" value="Blonde">Blonde
             <input type="radio" name="colour" value="Brunette">Brunette
@@ -54,7 +54,7 @@
             <input type="radio" name="colour" value="ColourUnknown">I don't know, inspire me!
             <button onClick="nextQuestion()">Next</button>
         </div>
-        <div id="question2" class="question">
+        <div id="question2" class="question" style="display: none;>
             <p>What length hair would you like?</p>
             <input type="radio" name="length" value="10inch">10 inch bob - just below my jawline
             <input type="radio" name="length" value="12inch">12 inch bob - just above my shoulders
@@ -63,7 +63,7 @@
             <input type="radio" name="length" value="long"> >18 inches - I want hair like Rapunzel!
             <button onClick="nextQuestion()">Next</button>
         </div>
-        <div id="question3" class="question">
+        <div id="question3" class="question" style="display: none;>
             <p>What hair texture would you like?</p>
             <input type="radio" name="texture" value="Straight">Straight
             <input type="radio" name="texture" value="Wavy">Wavy
@@ -71,7 +71,7 @@
             <input type="radio" name="texture" value="Very Curly">Very Curly
             <button onClick="nextQuestion()">Next</button>
         </div>
-        <div id="question4" class="question">
+        <div id="question4" class="question" style="display: none;>
             <p>Have you worn a wig before</p>
             <input type="radio" name="experience" value="No">No, I'm completely new to wigs
             <input type="radio" name="experience" value="someexperience">I wore one for halloween once, does that count?
@@ -81,8 +81,9 @@
         </div>
     </div>
 
-    <div id="result-container">
-        <div id="result">
+    <div id="result-container" style="display: none;>
+        <div id="result">  
+            <h4> Your True You</h4>
             <div id="result-content">
                 <img id="result-photo" alt="Result Photo">
                 <p id="result-text">Result text</p>
