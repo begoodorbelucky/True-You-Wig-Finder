@@ -135,6 +135,14 @@ a:visited {
 
 }
 
+#quiz {
+        background-color: #ffd0e0;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid #e64c81;
+        color: #2b1511;
+    }
+
 #contactform h3{
     text-align: center;
     color:#c23e6c;
