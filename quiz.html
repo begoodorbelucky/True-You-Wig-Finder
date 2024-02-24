@@ -39,7 +39,12 @@
 <main>
     <!--quiz-->
     <h3>True You Wig Finder Quiz</h3>
-    <div id="questions">
+<div id="quiz-container">
+    <div id="intro">
+        <h2>Are you ready to find your perfect wig? Start the True You Wig Finder quiz now!</h2>
+        <button onClick="startQuiz()">Start</button>
+    </div>
+    <div id="question-container">
         <div id="question1" class="question">
             <p>What colour hair would you like?</p>
             <input type="radio" name="colour" value="Blonde">Blonde
@@ -47,6 +52,7 @@
             <input type="radio" name="colour" value="Auburn">Auburn
             <input type="radio" name="colour" value="Black">Black
             <input type="radio" name="colour" value="ColourUnknown">I don't know, inspire me!
+            <button onClick="nextQuestion()">Next</button>
         </div>
         <div id="question2" class="question">
             <p>What length hair would you like?</p>
@@ -55,6 +61,7 @@
             <input type="radio" name="length" value="14inch">14 inch lob - I like the long bob look
             <input type="radio" name="length" value="16inch">16 inch - I like shoulder blade length hair
             <input type="radio" name="length" value="long"> >18 inches - I want hair like Rapunzel!
+            <button onClick="nextQuestion()">Next</button>
         </div>
         <div id="question3" class="question">
             <p>What hair texture would you like?</p>
@@ -62,6 +69,7 @@
             <input type="radio" name="texture" value="Wavy">Wavy
             <input type="radio" name="texture" value="LooseCurls">Loose Curls
             <input type="radio" name="texture" value="Very Curly">Very Curly
+            <button onClick="nextQuestion()">Next</button>
         </div>
         <div id="question4" class="question">
             <p>Have you worn a wig before</p>
@@ -69,8 +77,10 @@
             <input type="radio" name="experience" value="someexperience">I wore one for halloween once, does that count?
             <input type="radio" name="experience" value="moreexperience">Yes, I have worn lace front wigs before
             <input type="radio" name="experience" value="experienced">Yes, I can glue down a full lace wig with my eyes closed
+            <button onClick="getResult()">Submit</button>
         </div>
     </div>
+</div>
 </main>
 <footer><!--Social Media Icons-->
     <ul id="social-networks">
