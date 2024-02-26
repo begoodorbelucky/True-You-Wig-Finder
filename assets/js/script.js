@@ -23,6 +23,7 @@ function startQuiz() {
   document.getElementById('question1').style.display = 'block';
 }
 
+// next question function
 function nextQuestion() {
   const currentQuestion = document.getElementById(`question${currentQuestionIndex}`);
   currentQuestion.style.display = 'none';
@@ -32,3 +33,19 @@ function nextQuestion() {
     nextQuestion.style.display = 'block';
   }
 }
+
+//quiz result function
+function getResult() {
+    const selectedColour = document.querySelector('input[name="colour"]:checked');
+    const selectedLength = document.querySelector('input[name="length"]:checked');
+    const selectedTexture = document.querySelector('input[name="texture"]:checked');
+    const selectedExperience = document.querySelector('input[name="experience"]:checked');
+    const resultContainer = document.getElementById('result');
+    let imageUrl = '';
+    let resultText = '';
+    
+    if (selectedColour && selectedLength && selectedTexture && selectedExperience) {
+        const combinations = {
+            'Blonde_10inch_Straight_No': {image: 'blonde.webp', text: 'You should get a short blonde wig!' },
+            //to add more combainations
+        };
