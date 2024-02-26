@@ -135,9 +135,24 @@ a:visited {
 
 }
 
+#intro {
+    text-align: center;
+}
+
+#intro button {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 18px;
+    font-size: 100%;
+    background-color: #e64c81;
+    color: #fafafa;
+    display: block;
+    margin: 0 auto;
+  }
+
 #quiz-container {
         background-color: #ffd0e0;
-        padding: 20px;
+        padding: 30px;
         border-radius: 10px;
         border: 2px solid #e64c81;
         color: #2b1511;
