@@ -1659,3 +1659,43 @@ function getResult() {
         imageUrl = 'images/default.jpg';
         resultText = 'Sorry, no match found.';
       }
+
+    
+    // Display the result image and text
+    resultContainer.innerHTML = `
+      <img src="${imageUrl}" alt="Result Image">
+      <p>${resultText}</p>
+    `;
+
+    // Hide the quiz form after displaying the result
+    document.getElementById('quiz-form').style.display = 'none';
+    document.getElementById('buttons').style.display = 'block'; 
+  } else {
+    // error message if not all options selected 
+    resultContainer.innerHTML = `<p>Please answer all questions.</p>`;
+  }
+}
+
+function startAgain() {
+  window.location.href = 'quiz.html'; // Redirect to quiz.html
+}
+
+function resetRadioButtons() {
+  const radioButtons = document.querySelectorAll('input[type="radio"]');
+  radioButtons.forEach(button => {
+    button.checked = false;
+  });
+}
+
+function showQuestion(index) {
+  const questions = document.querySelectorAll('.question');
+  questions.forEach((question, i) => {
+    if (i + 1 === index) {
+      question.style.display = 'block';
+    } else {
+      question.style.display = 'none';
+    }
+  });
+}
+
+    
