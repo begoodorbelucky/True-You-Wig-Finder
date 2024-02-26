@@ -1647,3 +1647,5 @@ function getResult() {
                 text: 'Your perfect wig is a colourful long wig with  voluminous, very curly hair!We recommend full lace wigs for individuals experienced in wearing wigs, as they offer unparalleled versatility and natural appearance. With customizable features and high-quality construction, they provide both comfort and style for seasoned wig wearers.'
             },
         };
+        
+    const combinationKey = `${selectedColour.value}_${selectedLength.value}_${selectedTexture.value}_${selectedExperience.value}`;
