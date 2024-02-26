@@ -163,13 +163,34 @@ a:visited {
 
 .question {
   display: none;
+  margin-bottom: 20px;
 }
 .question.active {
   display: block;
 }
-button {
-  margin-top: 10px;
-}
+.question button {
+    background-color:#e64c81;
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .question p {
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+  }  
+.question button:hover {
+    background-color: #e64c81;
+  }
+
+.answer-container {
+    display: flex;
+    align-items: center;
+  }
 
 #contactform h3{
     text-align: center;
