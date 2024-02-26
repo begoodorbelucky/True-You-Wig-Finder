@@ -1697,5 +1697,3 @@ function showQuestion(index) {
     }
   });
 }
-
-    

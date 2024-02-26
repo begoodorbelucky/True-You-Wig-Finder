@@ -145,6 +145,17 @@ a:visited {
         margin-right: 5%;
     }
 
+
+.question {
+  display: none;
+}
+.question.active {
+  display: block;
+}
+button {
+  margin-top: 10px;
+}
+
 #contactform h3{
     text-align: center;
     color:#c23e6c;
